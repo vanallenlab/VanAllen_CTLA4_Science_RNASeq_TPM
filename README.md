@@ -3,4 +3,4 @@ Contains TPM matrices for pre-treatment samples from N = 42 ipilimumab-treated m
 
 Matrix 1: TPM values generated via alignment with STAR (https://github.com/alexdobin/STAR) and quantification with RSEM https://deweylab.github.io/RSEM/README.html). No further processing has been performed on these values. 
 
-Matrix 2: RPKM values generated via RNASeqQC (further information available in manuscript Supplementary Methods). Data is stored in .gct format (more info on file format available here: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#gct). 
+Matrix 2: TPM values generated via RNASeqQC, from de-duplicated BAMs (further information available in manuscript Supplementary Methods). Data is stored in .gct format (more info on file format available here: http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide#gct). 
